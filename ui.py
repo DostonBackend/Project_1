@@ -50,7 +50,7 @@ def auth_menu(ch):
 
 
 def user_menu(ch):
-    global session_user
+    global session_user, status
     user_todo = TodoService(user=session_user)
     match ch:
         case "1":
