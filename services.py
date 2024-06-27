@@ -6,6 +6,7 @@ from utils import make_password, match_password
 
 class AuthService:
 
+
     def __init__(self):
         self.database = Database()
         super().__init__()
